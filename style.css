@@ -50,3 +50,29 @@ body {
     font-size: 1em;
     color: #919193;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    gap: 1.5em;
+}
+
+.list-item {
+    font-size: 1.2em;
+    height: 4em;
+    border-radius: 2em;
+    display: flex;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+}
